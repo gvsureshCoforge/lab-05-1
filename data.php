@@ -4,7 +4,6 @@
 $write_servername = 'inventory-db-instance-1.cgwc13piywip.us-east-1.rds.amazonaws.com';
 $read_servername = 'inventory-db-instance-2.cgwc13piywip.us-east-1.rds.amazonaws.com';
 $username = 'master';
-$password = 'lab-password';
 $database = 'inventory';
 $table = 'products';
 
