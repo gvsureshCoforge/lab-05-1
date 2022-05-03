@@ -8,7 +8,7 @@ $database = 'inventory';
 $table = 'products';
 
 // Create read connection
-$read_conn = mysqli_connect($read_servername, $username, $password, $database);
+$read_conn = mysqli_connect($read_servername, $username, $database);
 
 // Check connection
 if (!$read_conn) {
